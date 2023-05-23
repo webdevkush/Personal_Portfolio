@@ -139,3 +139,26 @@ hr {
     left: -20px;
     font-size: 10px;
 }
+
+footer{
+    background-color: rgb(0, 0, 40);
+    color: white;
+    height: 30vh;
+}
+
+.foot{
+    position: relative;
+    margin: 50vh 0;
+}
+
+.leftEnd li{
+    display: flex;
+    list-style: none;
+    justify-content: left;
+}
+
+.leftEnd li a{
+    text-decoration: underline;
+    color: white;
+    margin: 25px 25px;
+}

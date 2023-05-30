@@ -6,6 +6,11 @@
 
 body {
     background-color: rgb(0, 0, 30);
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .blueviolet {

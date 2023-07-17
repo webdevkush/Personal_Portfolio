@@ -6,7 +6,6 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
-
 nav .left {
     color: white;
     font-size: 1.5rem;
@@ -88,13 +87,13 @@ hr {
     background-color: rgb(0, 0, 180);
 }
 
-.expSec h1{
+.expSec h1 {
     display: flex;
     color: white;
     margin: 9vh -5vw;
 }
 
-.expSec .horizontal{
+.expSec .horizontal {
     display: flex;
     background-color: white;
     height: 2px;
@@ -102,14 +101,14 @@ hr {
     margin: 80px 0;
 }
 
-.horizontal .vertical{
+.horizontal .vertical {
     background-color: white;
     height: 80px;
     width: 2px;
     margin: 0 80px;
 }
 
-.image{
+.image {
     position: relative;
     height: 4vh;
     background-size: cover;
@@ -117,20 +116,20 @@ hr {
     left: -12px;
 }
 
-.vertical .title{
+.vertical .title {
     position: relative;
     color: white;
     top: 40px;
     left: -20px;
 }
 
-.vertical span{
+.vertical span {
     position: relative;
     top: 40px;
     left: -20px;
 }
 
-.vertical .info{
+.vertical .info {
     display: flex;
     position: relative;
     align-items: justify;
@@ -140,25 +139,105 @@ hr {
     font-size: 10px;
 }
 
-footer{
+footer {
     background-color: rgb(0, 0, 40);
     color: white;
     height: 30vh;
 }
 
-.foot{
+.foot {
     position: relative;
     margin: 50vh 0;
 }
 
-.leftEnd li{
+.leftEnd li {
     display: flex;
     list-style: none;
     justify-content: left;
 }
 
-.leftEnd li a{
+.leftEnd li a {
     text-decoration: underline;
     color: white;
     margin: 25px 25px;
 }
+
+a {
+    color: #f1ce64;
+  }
+  
+  .share {
+    position: absolute;
+    width: 400px;
+    left: 45%;
+    margin-left: -600px;
+    top: 55%;
+    margin-top: -40px;
+    border-radius: 80px;
+  }
+  .share span {
+    width: 200px;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  .share nav {
+    font-size: 0;
+    background-color: rgb(0, 0, 30);
+  }
+  .share a {
+    line-height: 80px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #ffffff;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    margin: 0 -40px;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  .share a:nth-child(1) {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 0;
+  }
+  .share a:nth-child(1):hover {
+    background-color: #61c5ec;
+  }
+  .share a:nth-child(2):hover {
+    background-color: #3B5998;
+  }
+  .share a:nth-child(3):hover {
+    background-color: #ff0062;
+  }
+  .share a:nth-child(4) {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-right: 0;
+  }
+  .share a:nth-child(4):hover {
+    background-color: #000000;
+  }
+  .share:hover span, .share.hover span {
+    opacity: 0;
+  }
+  .share:hover a, .share.hover a {
+    border-radius: 50%;
+    margin: 0 10px;
+    color: #f1ce64;
+    font-size: 28px;
+  }
+  .share:hover a:hover, .share.hover a:hover {
+    color: #fff;
+  }
